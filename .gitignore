@@ -1,11 +1,12 @@
 # Dependencies
 node_modules/
 
+# Vite build output
+dist/
+
 # TypeScript build cache
 *.tsbuildinfo
 
 # OS / editor
 .DS_Store
 *.log
-
-# Nota: dist/ é versionado de propósito para a página funcionar sem build.
