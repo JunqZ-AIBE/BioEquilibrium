@@ -1,0 +1,16 @@
+{
+  "name": "lp-bioequilibrium",
+  "version": "1.0.0",
+  "description": "Landing page de alta conversão — Combo BioEquilibrium 3 em 1 (Energia, Defesa e Digestão).",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -p tsconfig.json --watch",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "serve": "python3 -m http.server 8000",
+    "dev": "npm run watch & npm run serve"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
